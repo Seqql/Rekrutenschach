@@ -1,0 +1,39 @@
+.singleTile {
+  /* border: 1px solid ; */
+  width: 100px;
+  height: 100px;
+}
+
+.tileToGo {
+  background-color: red !important;
+}
+
+.blackTiles {
+  background-color: #ab883a;
+}
+
+.whiteTiles {
+  background-color: #b4d6a0;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.whiteFigure {
+  backdrop-filter: drop-shadow(5px 5px 8px #b4d6a0);
+}
+
+.blackFigure {
+  transform: rotate(180deg);
+  backdrop-filter: drop-shadow(5px 5px 8px #ab883a);
+}
+
+html {
+  background-color: black;
+}
+
+#infoDisplay {
+  color: white;
+}

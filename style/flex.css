@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  /* transform: rotate(180deg); //After each player turn */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: inherit;
+}
+
+#app {
+  height: 100vh;
+}
